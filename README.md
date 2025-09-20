@@ -3,7 +3,7 @@ Driver Drowsiness Detection System
 A real-time Driver Drowsiness Detection System built using Python, OpenCV, and Machine Learning.
 The system monitors the driver’s eyes, mouth, and head movements to detect signs of fatigue and trigger timely alerts, helping reduce road accidents caused by drowsy driving.
 
-Features
+Features 🚀
 
 Eye Closure Detection → Uses Eye Aspect Ratio (EAR) to detect if eyes are closed.
 Yawning Detection (ML-based) → Detects yawns using Lip Aspect Ratio (LAR) and ML models.
@@ -11,12 +11,12 @@ Head Pose Detection → Detects head tilting/nodding with ML-based classificatio
 
 Adaptive Alerts System:
 
-First alert → Beep sound
-Second alert → Flashing lights
-Third alert → (Future extension) Automatic speed reduction via IoT
+First alert → Beep sound 🔊
+Second alert → Flashing lights ⚡
+Third alert → (Future extension) Automatic speed reduction via IoT 🚗
 Voice Assistant Alerts → Speaks warnings like “You seem tired, please take a break!”
 
-🛠️ Tech Stack
+Tech Stack 🛠️
 
 Language: Python
 Libraries: OpenCV, dlib, NumPy, imutils, scikit-learn, XGBoost, pyttsx3
@@ -24,6 +24,7 @@ Models: Random Forest & XGBoost for yawning and head pose detection
 
 📂 Project Structure
 drowsiness_detection/
+
 │── main.py # Main application
 │── yawn_model.pkl # ML model for yawning detection
 │── head_pose_model.pkl # ML model for head pose detection
@@ -35,8 +36,8 @@ drowsiness_detection/
 ⚡Installation
 
 Clone the repo:
-git clone https://github.com/sowmya-budumuru/driver-drowsiness-detection.git
-cd driver-drowsiness-detection
+git clone https://github.com/AshaKommana/Driver_Drowsiness_Detection.git
+cd Driver_Drowsiness_Detection
 
 Install dependencies:
 
